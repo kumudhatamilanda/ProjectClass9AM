@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <parameter name = "departure" value = "Mexico City"></parameter>
+  <parameter name = "destination" value = "Berlin"></parameter>
+    <classes>
+      <class name="org.extent.TravelBooking"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
