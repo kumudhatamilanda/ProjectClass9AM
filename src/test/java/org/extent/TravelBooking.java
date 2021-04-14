@@ -1,6 +1,5 @@
 package org.extent;
 
-import java.util.Iterator;
 import java.util.List;
 
 import org.openqa.selenium.By;
@@ -106,7 +105,7 @@ public class TravelBooking {
 		for (int i = 0; i < tabledata.size(); i++) {
 			WebElement td1 = tabledata.get(i);
 			String text = td1.getText();
-			
+			System.out.println(text);
 		}
 		
 		
